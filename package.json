@@ -4,7 +4,7 @@
   "description": "A query builder that parse and builds a prisma query format based off your url query parameters",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "module": "dist/builder.esm.js",
+  "module": "dist/prisma-query-builder.esm.js",
   "files": [
     "dist"
   ],
@@ -26,7 +26,7 @@
     "nestjs",
     "nestjs prisma query builder"
   ],
-  "repository": "https://github.com/AdeThorMiwa/eth-wallet-util.git",
+  "repository": "https://github.com/AdeThorMiwa/prisma-query-builder.git",
   "author": "Ade Thor Miwa",
   "license": "ISC",
   "dependencies": {},

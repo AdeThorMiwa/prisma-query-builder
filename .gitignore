@@ -12,6 +12,7 @@ sftp-config.json
 # production
 /build
 /dist
+/tests
 
 
 # misc
