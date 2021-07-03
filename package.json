@@ -1,0 +1,38 @@
+{
+  "name": "prisma-query-builder",
+  "version": "0.0.1",
+  "description": "A query builder that parse and builds a prisma query format based off your url query parameters",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/builder.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "tsdx lint src test",
+    "lint:fix": "tsdx lint src test --fix",
+    "build": "tsdx build",
+    "start": "tsdx watch",
+    "test": "tsdx test",
+    "prepublishOnly": "tsdx build"
+  },
+  "keywords": [
+    "prisma",
+    "query",
+    "builder",
+    "prisma query builder",
+    "url",
+    "parser",
+    "nestjs",
+    "nestjs prisma query builder"
+  ],
+  "repository": "https://github.com/AdeThorMiwa/eth-wallet-util.git",
+  "author": "Ade Thor Miwa",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tsdx": "^0.14.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.3"
+  }
+}
